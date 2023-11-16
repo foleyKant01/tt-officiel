@@ -6,6 +6,7 @@ import { SuperAdminComponent } from './super-admin.component';
 import { RegisterEtsComponent } from './register-ets/register-ets.component';
 import { RegisterPubComponent } from './register-pub/register-pub.component';
 import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MenuComponent } from './menu/menu.component';
     SuperAdminComponent,
     RegisterEtsComponent,
     RegisterPubComponent,
-    MenuComponent
+    MenuComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
