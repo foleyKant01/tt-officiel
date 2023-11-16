@@ -13,7 +13,6 @@ export class RegisterEtsComponent implements OnInit{
 infouser:any
 
   ngOnInit(): void {
-    this.read()
   }
 
 
