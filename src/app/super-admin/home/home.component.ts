@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+interface carouselImage{
+  imageSrc: string;
+  imageAlt: string;
+}
 
 @Component({
   selector: 'app-home',
@@ -6,5 +11,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
+  @Input() images: carouselImage[] = []
+  selectedIndex = 0;
 
 }
