@@ -1,0 +1,61 @@
+.divregister-gr{
+  border: px solid red;
+  height: 94%;
+  padding-top: 7%;
+  background: linear-gradient(to right, rgb(253, 132, 150), rgb(34, 34, 248),);
+}
+
+form{
+  height: 75%;
+  width: 60%;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+button{
+  width: 100%;
+  font-family: monospace;
+  border-radius: 12px;
+}
+
+input{
+  border-radius: 12px;
+}
+select{
+  border-radius: 12px;
+}
+
+.select{
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: -1px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.row{
+  margin-bottom: 40px;
+}
+.gr-div-logo{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.gr-div-logo > .logo  {
+  width: 18%;
+}
+
+.gr-div-logo > .logo > a > img  {
+  width: 100%;
+  height: 100%;
+}
+

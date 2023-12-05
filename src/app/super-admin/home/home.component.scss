@@ -2,24 +2,23 @@
   height: auto;
   border: 1px solid red;
   padding: 0px;
-}
-.div-home-mo{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-
-}
-h1{
-  font-size: 7rem;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  height: 94%;
+  background-image: url("/assets/img/carousel1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .text{
-  width: 63%;
+  width: 50%;
+  margin-top: 10%;
+  height: auto;
   border: 1px solid red;
+  margin-left: 10%;
 }
-.image{
-  width: 37%;
-  border: 1px solid red;
+h1{
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-}
