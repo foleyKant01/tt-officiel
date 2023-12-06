@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 // import { RegisterEtsComponent } from './super-admin/register-ets/register-ets.component';
 // import { RouterModule } from '@angular/router';
 
@@ -11,6 +12,7 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
+    NotfoundComponent,
     // RegisterEtsComponent,
   ],
   imports: [
