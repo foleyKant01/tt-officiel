@@ -7,6 +7,7 @@ import { RegisterEtsComponent } from './register-ets/register-ets.component';
 import { RegisterPubComponent } from './register-pub/register-pub.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     RegisterEtsComponent,
     RegisterPubComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
