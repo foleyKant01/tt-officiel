@@ -1,7 +1,18 @@
-aside{
-  border: 1px solid red;
-  height: 100%;
-  padding: 0px;
+.grul{
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 2px 2px 8px #b1b1b1,
+    -8px -8px 5px #ffffff;
+
+}
+
+a:hover{
+  list-style: none;
+  text-decoration: none;
+  border-radius: 7px;
+  padding-right: 8px;
+  background-color: rgb(194, 255, 255);
+  color: white;
 }
 
 li{

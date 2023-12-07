@@ -1,14 +1,14 @@
  <!-- Sidebar -->
- <ul class="grul p-0 navbar-nav bg-gradient sidebar sidebar-dark accordion" id="accordionSidebar">
+ <ul class="grul p-0 navbar-nav sidebar sidebar-dark">
 
   <!-- Sidebar - Brand -->
   <div class="header-sidebar p-0 brand-logo d-flex align-items-center justify-content-between">
-    <a style="color: #4e73df; width: 100%;"  class="p-0 m-0 sidebar-brand d-flex align-items-center justify-content-center" routerLink="home">
-      <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+    <span style="color: #4e73df; width: 100%;"  class="p-0 m-0 sidebar-brand d-flex align-items-center justify-content-center" routerLink="home">
+      <div style="border: px solid red; width: 50px;" class="sidebar-brand-icon rotate-n-12">
+          <img style="width: 100%;" src="/assets/img/LogoTT.png" alt="">
       </div>
       <div style="margin-left: 5px;"sidebar-brand-text>Trouvez Tout</div>
-  </a>
+    </span>
   </div>
 
   <!-- Divider -->
@@ -26,7 +26,7 @@
   <ul id="sidebarnav">
     <li class="nav-small-cap">
       <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-      <span class="hide-menu">Home</span>
+      <span class="hide-menu"><b>Home</b></span>
     </li>
     <li class="sidebar-item">
       <a class="sidebar-link" routerLink="home" aria-expanded="false">
@@ -41,7 +41,7 @@
       <ul>
         <li class="nav-small-cap">
           <i class="ti ti-dots nav-small-cap-icon fs-"></i>
-          <span class="hide-menu">Entreprise</span>
+          <span class="hide-menu"><b>Entreprise</b></span>
         </li>
         <li class="sidebar-item">
           <a class="sidebar-link" routerLink="/admin/entreprise/create" aria-expanded="false">
@@ -64,10 +64,10 @@
       <ul>
         <li class="nav-small-cap">
           <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-          <span class="hide-menu">Publicite</span>
+          <span class="hide-menu"><b>Publicite</b></span>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link" routerLink="reports" aria-expanded="false">
+          <a class="sidebar-link" routerLink="/admin/publicite/" aria-expanded="false">
             <span>
               <i class="fa-solid fa-arrow-trend-up mx-2"></i>
             </span>
@@ -79,18 +79,18 @@
       <ul>
         <li class="nav-small-cap">
           <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-          <span class="hide-menu">Settings</span>
+          <span class="hide-menu"><b>Settings</b></span>
         </li>
        <li class="sidebar-item">
-          <a class="sidebar-link" routerLink="/admin/settings/general" aria-expanded="false">
+          <a class="sidebar-link" routerLink="/admin/setting/abonnement/" aria-expanded="false">
             <span>
               <i class="fa-solid fa-gear mx-2"></i>
             </span>
-            <span class="hide-menu">General</span>
+            <span class="hide-menu">Abonnement</span>
           </a>
         </li>
        <li class="sidebar-item">
-          <a class="sidebar-link" routerLink="/admin/settings/system" aria-expanded="false">
+          <a class="sidebar-link" routerLink="/admin/setting/help/" aria-expanded="false">
             <span>
               <i class="fa-solid fa-gears mx-2"></i>
             </span>

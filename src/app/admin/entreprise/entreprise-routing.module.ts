@@ -8,7 +8,6 @@ import { ViewComponent } from './view/view.component';
 const routes: Routes = [
   {path:'', component:EntrepriseComponent,
   children:[
-    {path:'', redirectTo:'create', pathMatch:'full'},
     {path:'create', component:CreateComponent},
     {path:'all', component:AllComponent},
     {path:'view', component:ViewComponent}
