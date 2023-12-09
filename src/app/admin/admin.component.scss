@@ -1,26 +1,102 @@
-.divpage{
-  display: flex;
-  margin: 0px;
-  justify-content: space-around;
-  padding: 0px;
+body {
+  background-color: #fbfbfb;
+}
+
+#sidebarMenu{
   background-color: aliceblue;
 }
 
-body{
-  height: auto;
+.position-sticky i{
+  margin-right: 7px;
 }
 
-nav{
-  height: 6%;
+.position-sticky a{
+  background-color: aliceblue;
+  font-weight: 600;
 }
 
-.profil{
-  margin-left:96%;
-  padding: 0px;
+.position-sticky a:hover{
+  background-color: #8da9ff;
+  color: white;
 }
 
-i{
-  margin: 0px;
-  font-size: 1.5rem;
-  color: #4e73df;
+.position-sticky a:active{
+  background-color: #4e73df;
 }
+
+
+
+.navbar{
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 8px #b1b1b1,
+    -8px -8px 5px #ffffff;
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+
+
+// .divpage{
+//   display: flex;
+//   border: 1px solid red;
+//   height: 100%;
+//   margin: 0px;
+//   justify-content: space-around;
+//   padding: 0px;
+//   background-color: aliceblue;
+// }
+
+// body{
+//   height: auto;
+// }
+
+// nav{
+//   height: 6%;
+// }
+
+// .profil{
+//   margin-left:96%;
+//   padding: 0px;
+// }
+
+// i{
+//   margin: 0px;
+//   font-size: 1.5rem;
+//   color: #4e73df;
+// }
