@@ -1,0 +1,40 @@
+body {
+  padding-top: 7%;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+form{
+  border: 1px solid red;
+  height: 50px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}

@@ -1,24 +1,20 @@
-<p>all works!</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diagramme Circulaire en CSS</title>
-  <style>
-    .chart-container {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      background: conic-gradient(
-        red 0% 30%,     /* 30% pour la Catégorie 1 */
-        green 30% 70%,  /* 40% pour la Catégorie 2 */
-        blue 70% 100%   /* 30% pour la Catégorie 3 */
-      );
-    }
-  </style>
-</head>
-<body>
-  <div class="chart-container"></div>
+<body style="border: 1px solid red;">
+
+  <form>
+    <div>
+      <label for="types">Types</label>
+      <select name="types" class="form-select" multiple aria-label="Multiple select example">
+      <option selected></option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      </select>
+    </div>
+    <div class="search-form">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button type="submit" class="search-button">Search</button>
+    </div>
+  </form>
+
 </body>
-</html>
+
+
